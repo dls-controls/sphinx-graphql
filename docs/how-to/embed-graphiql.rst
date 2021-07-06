@@ -4,9 +4,8 @@ Embed a GraphiQL View
 The ``graphiql`` directive allows us to embed a GraphiQL_ view in the documentation, 
 we can optionally make this live and editable if a server is available.
 
-===========
 Static View
-===========
+-----------
 
 A static embedded view:
 
@@ -84,9 +83,8 @@ Source:
       }
 
 
-===================
 Live, Editable View
-===================
+-------------------
 
 If a server with a GraphQL API is available the sphinx view can be configured to use it. 
 In this case it becomes editable:
