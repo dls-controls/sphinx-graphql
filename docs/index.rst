@@ -30,7 +30,7 @@ Practical step-by-step guides for the more experienced user.
     :caption: How-to Guides
     :hidden:
 
-    how-to/accomplish-a-task
+    how-to/embed-graphiql
 
 .. rst-class:: columns
 
