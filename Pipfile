@@ -24,6 +24,7 @@ flake8-isort = "*"
 isort = ">5.0"
 sphinx-rtd-theme = "*"
 sphinx-testing = "*"
+types-docutils = "*"
 
 [packages]
 # All other package requirements from setup.cfg
