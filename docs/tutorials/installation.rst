@@ -45,3 +45,19 @@ The library should now be installed and the commandline interface on your path.
 You can check the version that has been installed by typing::
 
     sphinx-graphql --version
+
+
+Including in Sphinx Documentation 
+---------------------------------
+
+Add the extension to the ``extensions`` list in the ``conf.py`` file for your documentation.
+
+.. code-block:: python
+
+    extensions = [
+        # <Preexisting config>
+        ...,
+        
+        # Utilities for documenting GraphQL APIs
+        "sphinx_graphql",
+    ]
